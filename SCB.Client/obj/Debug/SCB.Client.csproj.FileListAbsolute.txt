@@ -1,0 +1,11 @@
+C:\Users\STFE\source\repos\SCB\SCB.Client\bin\Debug\SCB.Client.dll
+C:\Users\STFE\source\repos\SCB\SCB.Client\bin\Debug\SCB.Client.pdb
+C:\Users\STFE\source\repos\SCB\SCB.Client\bin\Debug\Newtonsoft.Json.dll
+C:\Users\STFE\source\repos\SCB\SCB.Client\bin\Debug\SCB.Domain.dll
+C:\Users\STFE\source\repos\SCB\SCB.Client\bin\Debug\SCB.Domain.pdb
+C:\Users\STFE\source\repos\SCB\SCB.Client\bin\Debug\Newtonsoft.Json.xml
+C:\Users\STFE\source\repos\SCB\SCB.Client\obj\Debug\SCB.Client.csprojAssemblyReference.cache
+C:\Users\STFE\source\repos\SCB\SCB.Client\obj\Debug\SCB.Client.csproj.CoreCompileInputs.cache
+C:\Users\STFE\source\repos\SCB\SCB.Client\obj\Debug\SCB.Client.csproj.CopyComplete
+C:\Users\STFE\source\repos\SCB\SCB.Client\obj\Debug\SCB.Client.dll
+C:\Users\STFE\source\repos\SCB\SCB.Client\obj\Debug\SCB.Client.pdb

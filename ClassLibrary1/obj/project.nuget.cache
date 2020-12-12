@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pebsvgoj0VsjG2MZIf0zMV+3cFf8F6SRhjNPtR58Di+gfP7M2WdZKB6BCcolxXnYALN2K6dT1ngKg34nekmVww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\STFE\\source\\repos\\SCB\\ClassLibrary1\\SCB.StatsReader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\STFE\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

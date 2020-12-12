@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "HL9/8FDeK3Mj8X+056c/7DVmJfs3CYw2RHqj//oWVWyEHIR9AmbOUCQRykr0UdnhiyOA6Z7bEhdX7EcpXTCn4A==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\STFE\\source\\repos\\SCB\\SCB.GUI\\SCB.GUI.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project SCB.StatsReader is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project SCB.StatsReader supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "SCB.StatsReader",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

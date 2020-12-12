@@ -1,0 +1,15 @@
+C:\Users\STFE\source\repos\SCB\SCB.GUI\bin\Debug\netcoreapp3.1\SCB.GUI.exe
+C:\Users\STFE\source\repos\SCB\SCB.GUI\bin\Debug\netcoreapp3.1\SCB.GUI.deps.json
+C:\Users\STFE\source\repos\SCB\SCB.GUI\bin\Debug\netcoreapp3.1\SCB.GUI.runtimeconfig.json
+C:\Users\STFE\source\repos\SCB\SCB.GUI\bin\Debug\netcoreapp3.1\SCB.GUI.runtimeconfig.dev.json
+C:\Users\STFE\source\repos\SCB\SCB.GUI\bin\Debug\netcoreapp3.1\SCB.GUI.dll
+C:\Users\STFE\source\repos\SCB\SCB.GUI\bin\Debug\netcoreapp3.1\SCB.GUI.pdb
+C:\Users\STFE\source\repos\SCB\SCB.GUI\obj\Debug\netcoreapp3.1\SCB.GUI.csprojAssemblyReference.cache
+C:\Users\STFE\source\repos\SCB\SCB.GUI\obj\Debug\netcoreapp3.1\SCB.GUI.Form1.resources
+C:\Users\STFE\source\repos\SCB\SCB.GUI\obj\Debug\netcoreapp3.1\SCB.GUI.csproj.GenerateResource.cache
+C:\Users\STFE\source\repos\SCB\SCB.GUI\obj\Debug\netcoreapp3.1\SCB.GUI.AssemblyInfoInputs.cache
+C:\Users\STFE\source\repos\SCB\SCB.GUI\obj\Debug\netcoreapp3.1\SCB.GUI.AssemblyInfo.cs
+C:\Users\STFE\source\repos\SCB\SCB.GUI\obj\Debug\netcoreapp3.1\SCB.GUI.csproj.CoreCompileInputs.cache
+C:\Users\STFE\source\repos\SCB\SCB.GUI\obj\Debug\netcoreapp3.1\SCB.GUI.dll
+C:\Users\STFE\source\repos\SCB\SCB.GUI\obj\Debug\netcoreapp3.1\SCB.GUI.pdb
+C:\Users\STFE\source\repos\SCB\SCB.GUI\obj\Debug\netcoreapp3.1\SCB.GUI.genruntimeconfig.cache

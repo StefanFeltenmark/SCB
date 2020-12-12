@@ -1,0 +1,6 @@
+C:\Users\STFE\source\repos\SCB\SCB.Domain\bin\Debug\SCB.Domain.dll
+C:\Users\STFE\source\repos\SCB\SCB.Domain\bin\Debug\SCB.Domain.pdb
+C:\Users\STFE\source\repos\SCB\SCB.Domain\obj\Debug\SCB.Domain.csproj.CoreCompileInputs.cache
+C:\Users\STFE\source\repos\SCB\SCB.Domain\obj\Debug\SCB.Domain.dll
+C:\Users\STFE\source\repos\SCB\SCB.Domain\obj\Debug\SCB.Domain.pdb
+C:\Users\STFE\source\repos\SCB\SCB.Domain\obj\Debug\SCB.Domain.csprojAssemblyReference.cache

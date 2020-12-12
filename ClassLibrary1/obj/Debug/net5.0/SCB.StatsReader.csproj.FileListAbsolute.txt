@@ -1,0 +1,12 @@
+C:\Users\STFE\source\repos\SCB\ClassLibrary1\obj\Debug\net5.0\SCB.StatsReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STFE\source\repos\SCB\ClassLibrary1\obj\Debug\net5.0\SCB.StatsReader.AssemblyInfoInputs.cache
+C:\Users\STFE\source\repos\SCB\ClassLibrary1\obj\Debug\net5.0\SCB.StatsReader.AssemblyInfo.cs
+C:\Users\STFE\source\repos\SCB\ClassLibrary1\obj\Debug\net5.0\SCB.StatsReader.csproj.CoreCompileInputs.cache
+C:\Users\STFE\source\repos\SCB\ClassLibrary1\bin\Debug\net5.0\SCB.StatsReader.deps.json
+C:\Users\STFE\source\repos\SCB\ClassLibrary1\bin\Debug\net5.0\SCB.StatsReader.dll
+C:\Users\STFE\source\repos\SCB\ClassLibrary1\bin\Debug\net5.0\ref\SCB.StatsReader.dll
+C:\Users\STFE\source\repos\SCB\ClassLibrary1\bin\Debug\net5.0\SCB.StatsReader.pdb
+C:\Users\STFE\source\repos\SCB\ClassLibrary1\obj\Debug\net5.0\SCB.StatsReader.dll
+C:\Users\STFE\source\repos\SCB\ClassLibrary1\obj\Debug\net5.0\ref\SCB.StatsReader.dll
+C:\Users\STFE\source\repos\SCB\ClassLibrary1\obj\Debug\net5.0\SCB.StatsReader.pdb
+C:\Users\STFE\source\repos\SCB\ClassLibrary1\obj\Debug\net5.0\SCB.StatsReader.csprojAssemblyReference.cache

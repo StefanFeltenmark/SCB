@@ -1,0 +1,13 @@
+C:\Users\STFE\source\repos\SCB\SCB.Controller\bin\Debug\SCB.Controller.dll
+C:\Users\STFE\source\repos\SCB\SCB.Controller\bin\Debug\SCB.Controller.pdb
+C:\Users\STFE\source\repos\SCB\SCB.Controller\bin\Debug\SCB.Client.dll
+C:\Users\STFE\source\repos\SCB\SCB.Controller\bin\Debug\SCB.Domain.dll
+C:\Users\STFE\source\repos\SCB\SCB.Controller\bin\Debug\Newtonsoft.Json.dll
+C:\Users\STFE\source\repos\SCB\SCB.Controller\bin\Debug\SCB.Client.pdb
+C:\Users\STFE\source\repos\SCB\SCB.Controller\bin\Debug\SCB.Domain.pdb
+C:\Users\STFE\source\repos\SCB\SCB.Controller\bin\Debug\Newtonsoft.Json.xml
+C:\Users\STFE\source\repos\SCB\SCB.Controller\obj\Debug\SCB.Controller.csprojAssemblyReference.cache
+C:\Users\STFE\source\repos\SCB\SCB.Controller\obj\Debug\SCB.Controller.csproj.CoreCompileInputs.cache
+C:\Users\STFE\source\repos\SCB\SCB.Controller\obj\Debug\SCB.Controller.csproj.CopyComplete
+C:\Users\STFE\source\repos\SCB\SCB.Controller\obj\Debug\SCB.Controller.dll
+C:\Users\STFE\source\repos\SCB\SCB.Controller\obj\Debug\SCB.Controller.pdb

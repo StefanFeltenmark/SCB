@@ -1,0 +1,14 @@
+C:\Users\STFE\source\repos\SCB\SCB.ConsoleApp\bin\Debug\SCB.ConsoleApp.exe.config
+C:\Users\STFE\source\repos\SCB\SCB.ConsoleApp\bin\Debug\SCB.ConsoleApp.exe
+C:\Users\STFE\source\repos\SCB\SCB.ConsoleApp\bin\Debug\SCB.ConsoleApp.pdb
+C:\Users\STFE\source\repos\SCB\SCB.ConsoleApp\bin\Debug\SCB.Client.dll
+C:\Users\STFE\source\repos\SCB\SCB.ConsoleApp\bin\Debug\SCB.Domain.dll
+C:\Users\STFE\source\repos\SCB\SCB.ConsoleApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\STFE\source\repos\SCB\SCB.ConsoleApp\bin\Debug\SCB.Client.pdb
+C:\Users\STFE\source\repos\SCB\SCB.ConsoleApp\bin\Debug\SCB.Domain.pdb
+C:\Users\STFE\source\repos\SCB\SCB.ConsoleApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\STFE\source\repos\SCB\SCB.ConsoleApp\obj\Debug\SCB.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\STFE\source\repos\SCB\SCB.ConsoleApp\obj\Debug\SCB.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\STFE\source\repos\SCB\SCB.ConsoleApp\obj\Debug\SCB.ConsoleApp.csproj.CopyComplete
+C:\Users\STFE\source\repos\SCB\SCB.ConsoleApp\obj\Debug\SCB.ConsoleApp.exe
+C:\Users\STFE\source\repos\SCB\SCB.ConsoleApp\obj\Debug\SCB.ConsoleApp.pdb
