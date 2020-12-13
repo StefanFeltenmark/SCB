@@ -41,11 +41,7 @@ namespace SCB.WinFormsGUI
             UpdateTree();
         }
 
-        private void TreeViewNavigation_AfterSelect(object sender, TreeViewEventArgs e)
-        {
-            _currentTreeNode = e.Node as SCBTreeNode;
-            UpdateTree();
-        }
+    
 
         private void UpdateTree()
         {
@@ -86,9 +82,12 @@ namespace SCB.WinFormsGUI
                 _currentQuery = new SCBQuery();
                 _currentQuery.SetUp(_currentMetaData.variables);
 
-                checkedListBoxItems.Items.Clear();
-
                 listBoxVariables.SelectedIndex = 0;
+                SCBVariable var = listBoxVariables.SelectedItem as SCBVariable;
+                if (var != null)
+                {
+                    UpdateSelectedItems(var);
+                }
             }
         }
 
@@ -170,6 +169,7 @@ namespace SCB.WinFormsGUI
             foreach (SCBTimeSeries series in _currentTable._timeSeries)
             {
                 Series s = chartStats.Series.Add(series.Name);
+                s.BorderWidth = 2;
                 s.ChartType = SeriesChartType.Line;
                 foreach (KeyValuePair<DateTime, double> keyValuePair in series)
                 {
@@ -179,7 +179,7 @@ namespace SCB.WinFormsGUI
 
             chartStats.ChartAreas.First().AxisX.Name = "Time";
             chartStats.ChartAreas.First().Name = "Test";
-            chartStats.ChartAreas.First().BackColor = Color.Black;
+            chartStats.ChartAreas.First().BackColor = Color.Transparent;
 
         }
 
@@ -216,13 +216,13 @@ namespace SCB.WinFormsGUI
                 else if (item.selection.filter.Equals("item"))
                 {
                     radioButtonItem.Checked = true;
-                    UpdateSelectedItems(var);
 
                 }
                 else if (item.selection.filter.Equals("top"))
                 {
                     radioButtonTop.Checked = true;
                 }
+                UpdateSelectedItems(var);
             }
 
 
@@ -274,7 +274,17 @@ namespace SCB.WinFormsGUI
         {
             _currentQuery.Update(); // prepare dto's
 
-            bool success = QueryDatabase(_currentTreeNode).Result;
+            bool success = false;
+            try
+            {
+                success = QueryDatabase(_currentTreeNode).Result;
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show($"An error occurred: {exception.Message}", "Alert!", MessageBoxButtons.OK);
+
+            }
+            
 
             if (success)
             {

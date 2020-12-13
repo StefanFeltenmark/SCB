@@ -14,13 +14,16 @@ namespace SCB.Domain
         public List<SCBTableEntry> data;
         // end DTO def
 
-        public List<SCBTimeSeries> _timeSeries;
+       
 
+        public List<SCBTimeSeries> _timeSeries;
 
         public SCBTable()
         {
-           _timeSeries = new List<SCBTimeSeries>();
+            
         }
+
+     
 
         public void Setup()
         {
@@ -34,18 +37,25 @@ namespace SCB.Domain
             SCBColumn timeColumn = columns.Find(s => s.IsTime());
             List<SCBColumn> valueColumns  = columns.Where(s => s.IsOutput()).Select(p => p).ToList();
 
-            
+
             // get keys
             HashSet<SCBKey> keys = new HashSet<SCBKey>();
-            Dictionary<SCBKey,List<SCBTableEntry>> entries = new Dictionary<SCBKey, List<SCBTableEntry>>();
+            Dictionary<SCBKey, List<SCBTableEntry>> entries = new Dictionary<SCBKey, List<SCBTableEntry>>();
             foreach (SCBTableEntry tableEntry in data)
             {
                 List<SCBValue> vals = new List<SCBValue>();
                 foreach (SCBColumn keyColumn in keyColumns)
                 {
-                    SCBValue val = new SCBValue(tableEntry.key[keyColumn.id],"");
+                    //string code = tableEntry.key[keyColumn.id];
+                    //SCBVariable var = _metaData._keyToVariable[code];
+                    //int ind = var.values.IndexOf(code);
+                    //string text = var.valueTexts[ind];
+
+                    SCBValue val = new SCBValue(tableEntry.key[keyColumn.id], "");
                     vals.Add(val);
                 }
+
+                
                 SCBKey key = new SCBKey(vals);
                 bool isNew = keys.Add(key);
 
@@ -53,16 +63,17 @@ namespace SCB.Domain
                 {
                     List<SCBTableEntry> list = new List<SCBTableEntry>();
                     list.Add(tableEntry);
-                    entries.Add(key,list);
+                    entries.Add(key, list);
                 }
                 else
                 {
-                    entries[key].Add(tableEntry); 
+                    entries[key].Add(tableEntry);
                 }
-
             }
 
+
             // get time series
+            _timeSeries = new List<SCBTimeSeries>();
             int offset = keyColumns.Count + 1;
             foreach (SCBKey key in keys)
             {

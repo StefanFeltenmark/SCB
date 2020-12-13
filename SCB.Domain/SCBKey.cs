@@ -15,16 +15,33 @@ namespace SCB.Domain
         {
             _values = values;
 
+            CreateStringRepresentation();
+        }
+
+        private void CreateStringRepresentation()
+        {
             StringBuilder sb = new StringBuilder();
             IEnumerator<SCBValue> enumer = _values.GetEnumerator();
-            enumer.MoveNext();
-            string str = enumer.Current.value;
-            if(!string.IsNullOrEmpty(str)) sb.Append(str);
-            while (enumer.MoveNext())
+            if (enumer.MoveNext())
             {
-                str = enumer.Current.value;
-                if (!string.IsNullOrEmpty(str)) sb.Append(str);
+                string str = enumer.Current.value;
+                string str2 = enumer.Current.valueText;
+                if (!string.IsNullOrEmpty(str2))
+                    sb.Append(str2);
+                else if (!string.IsNullOrEmpty(str))
+                    sb.Append(str);
+
+                while (enumer.MoveNext())
+                {
+                    str = enumer.Current.value;
+                    str2 = enumer.Current.valueText;
+                    if (!string.IsNullOrEmpty(str2))
+                        sb.Append(str2);
+                    else if (!string.IsNullOrEmpty(str))
+                        sb.Append(str);
+                }
             }
+
             _stringRepresentation = sb.ToString();
         }
 
